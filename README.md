@@ -86,15 +86,8 @@ Kemudian buka browser dan akses `http://localhost:8000`
 ```
 TechHub-Website/
 ├── index.html              # Halaman utama
-├── css/
-│   └── style.css           # Custom styling
-├── js/
-│   └── script.js           # JavaScript functionality
-├── assets/
-│   ├── images/             # Folder gambar
-│   └── fonts/              # Font custom (jika ada)
+├── style.css               # Custom styling
 ├── README.md               # File dokumentasi ini
-└── .gitignore              # File yang diabaikan Git
 ```
 
 ---
@@ -107,31 +100,6 @@ TechHub-Website/
 - **Responsive Breakpoints** - xs, sm, md, lg, xl, xxl
 - **Flexbox Layout** - Alignment dan distribution yang mudah
 
-### Contoh Penggunaan Bootstrap:
-```html
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <!-- Content -->
-</nav>
-
-<!-- Grid Layout -->
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">Content 1</div>
-    <div class="col-md-6">Content 2</div>
-  </div>
-</div>
-
-<!-- Card Component -->
-<div class="card">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Title</h5>
-    <p class="card-text">Description</p>
-  </div>
-</div>
-```
-
 ---
 
 ## 🤝 Kontribusi
@@ -143,40 +111,6 @@ Kami menerima kontribusi dari komunitas! Jika Anda ingin berkontribusi:
 3. **Commit** perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
 4. **Push** ke branch (`git push origin feature/AmazingFeature`)
 5. **Buat Pull Request** dengan deskripsi yang jelas
-
----
-
-## 📋 Checklist Development
-
-- [ ] Semua halaman responsive di mobile
-- [ ] Konten SEO-friendly
-- [ ] Loading time optimal
-- [ ] Accessibility terjaga (alt text, labels, dll)
-- [ ] Cross-browser testing selesai
-- [ ] Performance teroptimasi
-
----
-
-## 💡 Tips & Best Practices
-
-### Frontend Development
-- ✅ Gunakan class Bootstrap untuk layout, hindari custom CSS jika tidak perlu
-- ✅ Manfaatkan utility classes Bootstrap untuk spacing dan alignment
-- ✅ Test responsivitas menggunakan DevTools (F12) di berbagai breakpoint
-- ✅ Optimasi gambar sebelum upload (gunakan tools seperti TinyPNG)
-- ✅ Validasi HTML menggunakan W3C Validator
-
-### Bootstrap 5.3 Tips
-- ✅ Pelajari grid system untuk layout yang solid
-- ✅ Gunakan built-in components (Button, Form, Modal, dll)
-- ✅ Leverage CSS custom properties (variables) untuk theming
-- ✅ Minify CSS/JS di production
-
-### Performance
-- ✅ Lazy load images untuk performa lebih baik
-- ✅ Minify dan compress assets
-- ✅ Gunakan CDN untuk Bootstrap 5.3
-- ✅ Monitor lighthouse score
 
 ---
 
@@ -196,12 +130,6 @@ Kami menerima kontribusi dari komunitas! Jika Anda ingin berkontribusi:
 - **Repository**: [TechHub-Website](https://github.com/MFSA01/TechHub-Website)
 
 Jika Anda memiliki pertanyaan atau masalah, silakan buat **Issue** di repository ini.
-
----
-
-## 📄 Lisensi
-
-Project ini belum memiliki lisensi resmi. Hubungi author untuk informasi lebih lanjut.
 
 ---
 
