@@ -1,0 +1,533 @@
+<!-- Muhammad Farrel Satrio Adipramana (25.12.3569) -->
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechHub Platform Kursus Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400; 500; 600; 700; 800 &display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bold">
+                <i class="bi bi-cpu-fill me-2 text-warning"></i>TechHub
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto gap-1">
+                    <li class="nav-item"><a href="#kursus" class="nav-link">Kursus</a></li>
+                    <li class="nav-item"><a href="#kursus" class="nav-link">Kategori</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a href="#daftar" class="btn btn-warning btn-sm fw-semibold px-4 text-dark" href="#daftar">
+                            Mulai Gratis
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="hero-section d-flex align-items-center bg-dark bg-gradient">
+      <div class="container py-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="badge bg-warning text-dark fs-6 mb-3 px-3 py-2">
+              <i class="bi bi-stars me-1"></i>Platform #1 Indonesia
+            </span>
+            <h1 class="display-4 fw-black text-white lh-sm mb-3">
+              Kuasai Skill Digital<br />
+              <span class="text-warning">Dalam 30 Hari</span>
+            </h1>
+            <p class="lead text-white-50 mb-4">
+              Belajar programming, desain, dan teknologi bersama mentor
+              berpengalaman. Sertifikat terakreditasi, komunitas aktif, dan
+              materi selalu diperbarui.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mb-4">
+              <button class="btn btn-warning btn-lg fw-semibold px-5">
+                <i class="bi bi-play-circle-fill me-2"></i>Mulai Belajar
+              </button>
+              <button class="btn btn-outline-light btn-lg px-5">
+                <i class="bi bi-collection-play me-2"></i>Lihat Kursus
+              </button>
+            </div>
+            <div class="d-flex flex-wrap gap-3">
+              <span class="badge bg-light text-dark fs-6 px-3 py-2">
+                <i class="bi bi-people-fill me-1 text-primary"></i>50K+ Pelajar
+              </span>
+              <span class="badge bg-light text-dark fs-6 px-3 py-2">
+                <i class="bi bi-book-fill me-1 text-success"></i>200+ Kursus
+              </span>
+              <span class="badge bg-light text-dark fs-6 px-3 py-2">
+                <i class="bi bi-star-fill me-1 text-warning"></i>4.9 Rating
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-none d-lg-flex justify-content-center">
+            <div class="hero-card-demo float-animation shadow-lg bg-white rounded-4 p-4" style="width: 100%; max-width: 300px">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="demo-avatar bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold p-2">
+                  DH
+                </div>
+                <div>
+                  <div class="fw-semibold text-dark">Deni Hermawan</div>
+                  <div class="small text-muted">Web Developer</div>
+                </div>
+                <span class="badge bg-success ms-auto px-3">Pro</span>
+              </div>
+              <div class="progress mb-2" style="height: 8px">
+                <div class="progress-bar bg-warning" style="width: 78%"></div>
+              </div>
+
+              <div class="d-flex justify-content-between small text-muted mb-4">
+                <span>Bootstrap 5 Mastery</span><span>78%</span>
+              </div>
+              <div class="d-flex gap-2 flex-wrap">
+                <span class="badge bg-primary-subtle text-primary px-3"
+                  >HTML</span>
+                <span class="badge bg-warning-subtle text-warning-emphasis px-3"
+                  >CSS</span>
+                <span class="badge bg-success-subtle text-success px-3"
+                  >Bootstrap</span
+                >
+                <span class="badge bg-info-subtle text-info px-3"
+                  >JavaScript</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-4 bg-light" id="notifikasi">
+        <div class="container">
+            <h4 class="fw-bold mb-3">
+                <i class="bi bi-bell-fill text-warning me-2"></i>Notifikasi & Pengumuman
+            </h4>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+                        <i class="bi bi-check-circle-fill me-2"></i>
+                        <strong>Pendaftaran berhasil !</strong>
+                        Akun premium kamu sudah aktif selama 30 hari.
+                        <button class="btn-close" data-bs-dismiss="alert" type="button"></button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="alert alert-info alert-dismissible fade show shadow-sm" role="alert">
+                        <i class="bi bi-info-circle-fill me-2"></i>
+                        <strong>Kursor Baru : </strong> "React 18 + Typescript" telah tersedia.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="alert alert-warning alert-dismissible fade show shadow-sm" role="alert">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                        <strong>Promo Berakhir !</strong>
+                        Diskon 50% hanya sampai Minggu ini.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="alert alert-danger alert-dismissible fade show shadow-sm" role="alert">
+                        <i class="bi bi-x-circle-fill me-2"></i>
+                        <strong>Pemeliharaan Server</strong>
+                        Sabtu, 9 Mei 2026 pukul 00.00 - 04.00 WIB.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kategori" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary-subtle text-primary px-3 py-2 mb-2">Jelajahi</span>
+                <h2 class="fw-bold display-6">Kategori Kursus</h2>
+            </div>
+
+
+            <div class="d-flex flex-wrap justify-content-center gap-2 mb-5" id="filterBadges">
+                <span class="badge-filter active">Semua</span>
+                <span class="badge-filter">Web Dev</span>
+                <span class="badge-filter">Mobile</span>
+                <span class="badge-filter">Data Science</span>
+                <span class="badge-filter">UI/UX</span>
+                <span class="badge-filter">DevOps</span>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">
+                <div class="col">
+                    <div class="card text-center border-0 shadow-sm h-100 py-4">
+                        <div class="card-body">
+                            <div class="kategori-icon bg-primary-subtle text-primary mb-3">
+                                <i class="bi bi-code-slash fs-3"></i>
+                            </div>
+                            <p class="fw-semibold mb-1 small">Web Dev</p>
+                            <span class="badge bg-primary-subtle text-primary">48 Kursus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center border-0 shadow-sm h-100 py-4">
+                        <div class="card-body">
+                            <div class="kategori-icon bg-warning-subtle text-warning mb-3">
+                                <i class="bi bi-phone fs-3"></i>
+                            </div>
+                            <p class="fw-semibold mb-1 small">Mobile</p>
+                            <span class="badge bg-warning-subtle text-warning">32 Kursus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center border-0 shadow-sm h-100 py-4">
+                        <div class="card-body">
+                            <div class="kategori-icon bg-success-subtle text-success mb-3">
+                                <i class="bi bi-database-fill fs-3"></i>
+                            </div>
+                            <p class="fw-semibold mb-1 small">Data Science</p>
+                            <span class="badge bg-success-subtle text-success">28 Kursus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center border-0 shadow-sm h-100 py-4">
+                        <div class="card-body">
+                            <div class="kategori-icon bg-info-subtle text-info mb-3">
+                                <i class="bi bi-paint-bucket fs-3"></i>
+                            </div>
+                            <p class="fw-semibold mb-1 small">UI/UX</p>
+                            <span class="badge bg-info-subtle text-info">25 Kursus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center border-0 shadow-sm h-100 py-4">
+                        <div class="card-body">
+                            <div class="kategori-icon bg-danger-subtle text-danger mb-3">
+                                <i class="bi bi-cloud-upload fs-3"></i>
+                            </div>
+                            <p class="fw-semibold mb-1 small">DevOps</p>
+                            <span class="badge bg-danger-subtle text-danger">19 Kursus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.querySelectorAll('.badge-filter').forEach(badge => {
+            badge.addEventListener('click', function () {
+                document.querySelectorAll('.badge-filter').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+    <section id="kursus" class="py-5 bg-light">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between mb-5">
+                <div>
+                    <span class="badge bg-success-subtle text-success px-3 py-2 mb-1">Populer</span>
+                    <h2 class="fw-bold display-6 mb-0">Kursus Unggulan</h2>
+                </div>
+                <a href="#" class="btn btn-outline-primary">
+                    Lihat Semua <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-thumbnail bg-primary d-flex align-items-center justify-content-center">
+                            <i class="bi bi-bootstrap-fill text-white" style="font-size:4rem;"></i>
+                        </div>
+
+                        <div class="card-body p-4">
+
+                            <div class="d-flex gap-2 mb-2">
+                                <span class="badge bg-primary-subtle text-primary">Web Dev</span>
+                                <span class="badge bg-success-subtle text-success">Pemula</span>
+                                <span class="badge bg-warning-subtle text-warning-emphasis ms-auto">
+                                    <i class="bi bi-fire me-1"></i>Populer
+                                </span>
+                            </div>
+
+                            <h5 class="card-title fw-bold">Bootstrap 5 Dari Nol Sampai Pro</h5>
+                            <p class="card-text text-muted small mb-3">
+                                Kuasai framework CSS terpopuler 2025. Buat UI responsif dengan cepat.
+                            </p>
+
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="fw-semibold small">4.8</span>
+                                <span class="text-muted small">(2.341 ulasan)</span>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-clock me-1"></i>12 Jam
+                                </span>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-collection me-1"></i>48 Pelajaran
+                                </span>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-award me-1"></i>Sertifikat
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer bg-transparent border-0 px-4 pb-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div>
+                                    <span class="text-muted text-decoration-line-through small">Rp 349.000</span>
+                                    <div class="fw-bold text-primary fs-5">Rp 149.000</div>
+                                </div>
+                                <button class="btn btn-primary px-4">
+                                    <i class="bi bi-cart-plus me-1"></i>Enroll
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-thumbnail bg-warning d-flex align-items-center justify-content-center">
+                            <i class="bi bi-filetype-js text-dark" style="font-size:4rem;"></i>
+                        </div>
+
+                        <div class="card-body p-4">
+
+                            <div class="d-flex gap-2 mb-2">
+                                <span class="badge bg-warning-subtle text-warning-emphasis">Web Dev</span>
+                                <span class="badge bg-info-subtle text-info">Menengah</span>
+                            </div>
+
+                            <h5 class="card-title fw-bold">JavaScript Modern ES6+</h5>
+                            <p class="card-text text-muted small mb-3">
+                                Pelajari JavaScript modern dari dasar hingga async/await dan module.
+                            </p>
+
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <span class="fw-semibold small">4.9</span>
+                                <span class="text-muted small">(3.120 ulasan)</span>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-clock me-1"></i>18 Jam
+                                </span>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-collection me-1"></i>64 Pelajaran
+                                </span>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-award me-1"></i>Sertifikat
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer bg-transparent border-0 px-4 pb-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div>
+                                    <span class="text-muted text-decoration-line-through small">Rp 499.000</span>
+                                    <div class="fw-bold text-primary fs-5">Rp 199.000</div>
+                                </div>
+                                <button class="btn btn-primary px-4">
+                                    <i class="bi bi-cart-plus me-1"></i>Enroll
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-thumbnail bg-info d-flex align-items-center justify-content-center">
+                            <i class="bi bi-palette-fill text-white" style="font-size:4rem;"></i>
+                        </div>
+
+                        <div class="card-body p-4">
+
+                            <div class="d-flex gap-2 mb-2">
+                                <span class="badge bg-info-subtle text-info">UI/UX</span>
+                                <span class="badge bg-success-subtle text-success">Pemula</span>
+                            </div>
+
+                            <h5 class="card-title fw-bold">UI/UX Design dengan Figma</h5>
+                            <p class="card-text text-muted small mb-3">
+                                Desain antarmuka profesional menggunakan Figma dari nol sampai handoff.
+                            </p>
+
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="fw-semibold small">4.7</span>
+                                <span class="text-muted small">(1.856 ulasan)</span>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-clock me-1"></i>10 Jam
+                                </span>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-collection me-1"></i>36 Pelajaran
+                                </span>
+                                <span class="badge bg-light text-dark border">
+                                    <i class="bi bi-award me-1"></i>Sertifikat
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer bg-transparent border-0 px-4 pb-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div>
+                                    <span class="text-muted text-decoration-line-through small">Rp 299.000</span>
+                                    <div class="fw-bold text-primary fs-5">Rp 129.000</div>
+                                </div>
+                                <button class="btn btn-primary px-4">
+                                    <i class="bi bi-cart-plus me-1"></i>Enroll
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="daftar" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-info-subtle text-info px-3 py-2 mb-2">Aksi Tersedia</span>
+                <h2 class="fw-bold display-6">Tombol & Aksi</h2>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-md-4">
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Tombol Solid</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-success">Success</button>
+                        <button class="btn btn-danger">Danger</button>
+                        <button class="btn btn-warning text-dark">Warning</button>
+                        <button class="btn btn-dark">Dark</button>
+                    </div>
+
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Ukuran</h6>
+                    <div class="d-flex flex-wrap gap-2 align-items-center mb-4">
+                        <button class="btn btn-primary btn-lg">Large</button>
+                        <button class="btn btn-primary">Default</button>
+                        <button class="btn btn-primary btn-sm">Small</button>
+                    </div>
+
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Outline</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <button class="btn btn-outline-primary">Primary</button>
+                        <button class="btn btn-outline-success">Success</button>
+                        <button class="btn btn-outline-danger">Danger</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Tombol Icon Bulat</h6>
+                    <div class="d-flex gap-2 mb-4">
+                        <button class="btn btn-primary btn-icon"><i class="bi bi-heart-fill"></i></button>
+                        <button class="btn btn-success btn-icon"><i class="bi bi-share-fill"></i></button>
+                        <button class="btn btn-danger btn-icon"><i class="bi bi-trash-fill"></i></button>
+                        <button class="btn btn-warning text-dark btn-icon"><i class="bi bi-bookmark-fill"></i></button>
+                    </div>
+
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Loading State</h6>
+                    <div class="d-flex gap-2 mb-4">
+                        <button class="btn btn-primary" onclick="simulateLoading(this)">
+                            | <i class="bi bi-send-fill me-1"></i>Kirim
+                        </button>
+                        <button class="btn btn-success" disabled>
+                            | <span class="spinner-border spinner-border-sm me-2"></span>Proses ...
+                        </button>
+                    </div>
+
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Block (Full Width)</h6>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary">Masuk ke Akun</button>
+                        <button class="btn btn-outline-secondary">Daftar Sekarang</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Badge Solid</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-success">Success</span>
+                        <span class="badge bg-danger">Danger</span>
+                        <span class="badge bg-warning text-dark">Warning</span>
+                        <span class="badge bg-dark">Dark</span>
+                    </div>
+
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Badge Pill</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge rounded-pill bg-primary">12</span>
+                        <span class="badge rounded-pill bg-success"></span>
+                        <span class="badge rounded-pill bg-danger">99+</span>
+                        <span class="badge rounded-pill bg-warning text-dark">Baru</span>
+                    </div>
+                    <h6 class="text-muted text-uppercase fw-bold small mb-3">Badge pada Tombol</h6>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-outline-dark position-relative">
+                            <i class="bi bi-bell me-1"></i>Notifikasi
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">5</span>
+                            <button class="btn btn-outline-primary position-relative">
+                                <i class="bi bi-cart me-1"></i>Keranjang
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">3</span>
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-1 fw-bold"><i class="bi bi-cpu-fill me-2 text-warning"></i>TechHub</p>
+            <p class="text-white-50 small mb-0">&copy; 2026 TechHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

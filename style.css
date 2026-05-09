@@ -1,0 +1,101 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#mainNav {
+    background-color: #0a1f3a;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0a1f3a, #132f52);
+    min-height: 80vh;
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 1.5px solid;
+}
+
+
+
+.skill-tag.html { color: #e74c3c; border-color: #e74c3c; }
+.skill-tag.css { color: #3498db; border-color: #3498db; }
+.skill-tag.bootstrap { color: #6f42c1; border-color: #6f42c1; }
+.skill-tag.js { color: #f39c12; border-color: #f39c12; }
+
+.kategori-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.badge-filter {
+    padding: 6px 18px;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #64748b;
+    background-color: #f1f5f9;
+    cursor: pointer;
+}
+
+.badge-filter.active {
+    color: #fff;
+    background-color: #3b82f6;
+}
+
+.card-thumbnail {
+    height: 180px;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-thumbnail.bg-info {
+    background: linear-gradient(135deg, #06b6d4, #22d3ee) !important;
+}
+
+.card-thumbnail.bg-secondary {
+    background: linear-gradient(135deg, #64748b, #94a3b8) !important;
+}
+
+.ribbon {
+    position: absolute;
+    top: 14px;
+    right: -32px;
+    background: #ef4444;
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 4px 36px;
+    transform: rotate(45deg);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50% !important;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* floating animation */
+@keyframes mengambang {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+}
+
+.float-animation {
+    animation: mengambang 3s ease-in-out infinite;
+}
